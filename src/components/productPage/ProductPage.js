@@ -6,8 +6,8 @@ const ProductPage=()=>{
     return(
         <div className="product-page">
             
-            <ProductCard savings="160"/>
-            <ProductCard  savings="155"/>
+            <ProductCard savings="160" productName="Pro Prestige 50 LeakGuard"/>
+            <ProductCard  savings="155" productName="Pro Prestige 65 15-amp"/>
             
 
 

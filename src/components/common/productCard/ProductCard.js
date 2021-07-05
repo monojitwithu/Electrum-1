@@ -4,7 +4,7 @@ import image from '../images/single product card.png'
 import {BsFillInfoCircleFill} from "react-icons/bs"
 
   
-const ProductCard=({savings})=>{
+const ProductCard=({savings,productName})=>{
 
     const history=useHistory()
 
@@ -20,7 +20,7 @@ const ProductCard=({savings})=>{
         <div className="p-card">
             <div className="head">
                 <p className="brand">Rheem</p>
-                <p className="product-name">Pro Prestige 50 LeakGuard</p>
+                <p className="product-name">{productName}</p>
 
             </div>
             <div className="product">
