@@ -1,24 +1,36 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import Header from "../common/header/Header";
 import Description from "../common/description/Description";
 import {BsFillInfoCircleFill} from "react-icons/bs"
+import data from "./data.json"
 
 
 const ProductOverView=()=>{
+    const [productData,setProductData]=useState()
+
+    useEffect(()=>{
+        getdata()
+
+    })
+
+
+    
+
+    const getdata=()=>{
+        setProductData(data)
+
+    }
+
     return(
         <div>
             <Header/>
             <div className="main-container">
                 <div className="description">
-                    <Description/>
-                    <Description/>
-                    <Description/>
-                    <Description/>
-                    <Description/>
-                    <Description/>
-                    <Description/>
-                    <Description/>
-                    <Description/>
+                    {
+                        productData && productData.data.map(({heading,para})=><Description heading={heading} para={para}/>)
+                    }
+                    
+                    
                     
 
                 </div>

@@ -2,17 +2,17 @@ import React from "react"
 import{FaCheck} from "react-icons/fa"
 
 
-const Description=()=>{
+const Description=({heading,para})=>{
 
     return(
         <div className="description-container">
             <div className="title">
-                <p> <FaCheck/>Leak Guard Leak Detection & auto Shut Off </p>
+                <p> <FaCheck/>{heading}</p>
 
             </div>
             <div className="para">
                 <p>
-                    Protect your home from water damage with this all-inclusive leak detection and prevention system that limits leaks to no more than 20 oz .of water 
+                    {para} 
                 </p>
 
             </div>

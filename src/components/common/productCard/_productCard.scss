@@ -1,4 +1,5 @@
 .p-card{
+    background: white;
     margin-top: 39px;
     border-radius: 5px;
 
@@ -141,25 +142,26 @@ overflow: hidden;
 
     .more-detail{
         
-    margin-top: 4px;
-    /* margin: 0; */
-    margin-bottom: 5px;
-    /* margin-left: 232px; */
-    /* margin-right: -60px; */
+        padding: 5px;
+        background: #E8E8E8;
+        margin-top: 5px;
+        /* margin: 0; */
+        margin-bottom: -16px;
+        /* margin-left: 232px; */
+        
 
 
 
         p{
 
             
-    padding: 1px;
-    color: blue;
-    /* margin-bottom: 78px; */
-    width: 354px;
-    // background: #8a1313;
-    text-align: center;
-    margin-top: 0px;
-    cursor: pointer;
+            padding: 1px;
+            color: blue;
+            /* margin-bottom: 78px; */
+            width: 354px;
+            text-align: center;
+            margin-top: 0px;
+            cursor: pointer;
 
         }
     }
