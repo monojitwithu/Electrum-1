@@ -16,11 +16,14 @@
         P{ color: white;
             margin: 0px;
             svg{
+                color: white;
                 width: 32px;
             }
         }
     }
     .para{
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
         
         border-bottom: 1px solid;
         padding: 13px;
