@@ -1,0 +1,168 @@
+.p-card{
+    margin-top: 39px;
+    border-radius: 5px;
+
+
+    
+    // margin-top: 58px;
+    // background: blue;
+    // width: fit-content;
+    max-width: 366px;
+    margin-left: 69px;
+    // border-radius: 10px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+overflow: hidden;
+    
+    .head{
+        background: #333333;
+        P{   color: white; 
+            font-size: 22px;
+            margin-bottom: 0;
+            margin-left: 11px
+
+        }
+        .brand{
+            margin-top: 0;
+
+        }
+        .product-name{
+            padding-bottom: 7px;
+    margin-top: 0px;
+    font-size: 17px;
+    
+
+        }
+
+        
+        
+
+    }
+    .product{
+        display: flex;
+        margin-top: 0;
+        font-size: 18px;
+        .product-image{
+
+            img{
+                width: 118px;
+            }
+            
+        }
+        .product-description{
+            margin: 13px;
+            span{
+                color: #F5AE33;
+            }
+        }
+        
+    }
+
+    .product-price{
+        border-top: 1px solid;
+        padding-top: 6px;
+        /* height: 278px; */
+        // background: yellow;
+        width: 326px;
+        margin-left: 15px;
+        p{  
+            font-size: 20px;
+            margin: 0;
+        }
+        .best-price{
+
+        }
+        .installation{
+            color: gray;
+            font-size: 14px;
+
+        }
+        .incentives{
+            margin-top: 8px;
+            font-size: 17px;
+            svg{
+                font-size: 14px;
+                color: dimgray;
+            }
+
+        }
+        .equip-cost{
+            margin-top: 10px;
+            span{
+                font-size: 13px;
+            }
+            .ec{ font-size: 20px;
+                font-weight: 800;
+                color:#F5AE33;
+            }
+            svg{
+                font-size: 18px;
+                color: dimgray;
+            }
+
+        }
+        .savins{
+            margin-top: 16px;
+            /* background: blue; */
+            text-align: center;
+           width: -2px;
+           padding: 9px;
+          border: 2px solid green;
+          border-radius: 4px;
+          span{
+              font-weight: 800;
+              color: #006E50;
+          }
+          svg{
+            font-size: 18px;
+            color: dimgray;
+        }
+
+        }
+        .install-button{
+            margin-bottom: 7px;
+            border-radius: 5px;
+            padding-left: 28px;
+            /* padding: 22px; */
+            background: #F5AE33;
+            width: fit-content;
+            padding-top: 17px;
+            color: white;
+            padding-bottom: 17px;
+            margin-left: 68px;
+            padding-right: 28px;
+            margin-top: 10px;
+
+        }
+
+
+    }
+
+    .more-detail{
+        
+    margin-top: 4px;
+    /* margin: 0; */
+    margin-bottom: 5px;
+    /* margin-left: 232px; */
+    /* margin-right: -60px; */
+
+
+
+        p{
+
+            
+    padding: 1px;
+    color: blue;
+    /* margin-bottom: 78px; */
+    width: 354px;
+    // background: #8a1313;
+    text-align: center;
+    margin-top: 0px;
+    cursor: pointer;
+
+        }
+    }
+
+
+}

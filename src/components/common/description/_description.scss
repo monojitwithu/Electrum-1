@@ -1,0 +1,37 @@
+.description-container{
+    margin-right: 36px;
+    margin-bottom: 21px;
+    
+    
+    
+    width: 47%;
+   
+    height: fit-content;
+    
+
+    .title{
+        background:#006E50;
+        width: 42x;
+        padding: 10px;
+        P{ color: white;
+            margin: 0px;
+            svg{
+                width: 32px;
+            }
+        }
+    }
+    .para{
+        
+        border-bottom: 1px solid;
+        padding: 13px;
+        border-left: 1px solid;
+         border-right: 1px solid;
+        p{
+            margin: 0px;
+            font-size: 20px;
+        }
+
+    }
+
+
+}

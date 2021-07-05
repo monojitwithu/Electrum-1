@@ -1,0 +1,12 @@
+@import "../components/productOverView/productOverView";
+@import "../components/common/header/header";
+@import "../components/common/description/description";
+@import "../components/common/productCard/productCard";
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import "../components/productPage/productPage";
+
+
+body{
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
