@@ -6,16 +6,9 @@ const ProductPage=()=>{
     return(
         <div className="product-page">
             
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
+            <ProductCard savings="160"/>
+            <ProductCard  savings="155"/>
+            
 
 
         </div>

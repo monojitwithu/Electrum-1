@@ -4,7 +4,7 @@ import image from '../images/single product card.png'
 import {BsFillInfoCircleFill} from "react-icons/bs"
 
   
-const ProductCard=()=>{
+const ProductCard=({savings})=>{
 
     const history=useHistory()
 
@@ -43,7 +43,7 @@ const ProductCard=()=>{
                 <p className="equip-cost">Equipment Cost <BsFillInfoCircleFill/> <span>-----------------</span> <span className="ec">$1500</span> </p>
 
                 {/* <p className="savins">Your Est. Annual savings <span>$160</span></p> */}
-                <p className="savins">Your Est. Annual Savings <span>$160</span> <BsFillInfoCircleFill/> </p>
+                <p className="savins">Your Est. Annual Savings <span>${savings}</span> <BsFillInfoCircleFill/> </p>
                 
                 <p className="install-button">Get Install Quote</p>
 
@@ -55,6 +55,6 @@ const ProductCard=()=>{
 
         </div>
     )
-}
+}    
 
 export default ProductCard;
