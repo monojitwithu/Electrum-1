@@ -10,6 +10,7 @@ const ProductOverView=()=>{
 
     useEffect(()=>{
         getdata()
+        console.log("Monojit")
 
     })
 
